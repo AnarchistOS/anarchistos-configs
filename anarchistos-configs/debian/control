@@ -1,0 +1,13 @@
+Source: anarchistos-configs
+Section: misc
+Priority: extra
+Maintainer: AreYouLoco? <areyouloco@paranoici.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://anarchistos.tk/
+
+Package: anarchistos-configs
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: config files for AnarchistOS
+ Various configuration files to use along with AnarchistOS.
