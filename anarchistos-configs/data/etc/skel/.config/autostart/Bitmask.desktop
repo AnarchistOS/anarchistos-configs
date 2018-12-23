@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Bitmask
+Type=Application
+Exec=/usr/bin/bitmask
+Path=/home/areyouloco
+Terminal=false

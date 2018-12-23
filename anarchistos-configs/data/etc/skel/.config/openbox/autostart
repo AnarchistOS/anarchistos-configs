@@ -30,7 +30,7 @@ hsetroot -solid "#2E3436" &
 ## 4. tint2 panel
 (\
 nitrogen --restore && \
-cbpp-compositor --start && \
+anarchistos-compositor --start && \
 sleep 2s && \
 tint2 \
 ) &
@@ -68,13 +68,13 @@ xset r rate 250 25 &
 ## Turn on/off system beep
 xset b off &
 
-## cbpp-user-setup - User space initialization, sets .gtk-bookmarks and
+## anarchistos-user-setup - User space initialization, sets .gtk-bookmarks and
 ## creates symlink in images to wallpaper folder only runs once. Safe to remove.
-~/.cbpp-user-setup &
+~/.anarchistos-user-setup &
 
-## cbpp-welcome - post-installation script, will not run in a live session and
+## welcome-welcome - post-installation script, will not run in a live session and
 ## only runs once. Safe to remove.
-(sleep 10s && cbpp-welcome --firstrun) &
+(sleep 10s && welcome-welcome --firstrun) &
 
 ## Run the conky
 conky -q &
